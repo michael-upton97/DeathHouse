@@ -1,0 +1,69 @@
+{
+  "name": "pk-cos-countscrypt",
+  "title": "PK - Count's Crypt",
+  "description": "The Count's Manor - for Curse of Strahd.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.8.6",
+  "author": "Pyram King",
+  "authors": [
+    {
+      "name": "Pyram King",
+      "discord": "pyramking#8270",
+      "patreon": "pyramking"
+    }
+  ],
+  "packs": [
+    {
+      "name": "maps",
+      "label": "PK - Count's Crypt",
+      "path": "/packs/maps.db",
+      "entity": "Scene"
+    },
+    {
+      "name": "actors",
+      "label": "PK - Count's Crypt",
+      "path": "/packs/actors.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "PK - Count's Crypt",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "items",
+      "label": "PK - Count's Crypt",
+      "path": "/packs/items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "rolltables",
+      "label": "PK - Count's Crypt",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable"
+    },
+    {
+      "name": "playlists",
+      "label": "PK - Count's Crypt",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist"
+    }
+  ],
+  "esmodules": [
+    "./module/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "url": "https://www.patreon.com/pyramking",
+  "manifest": "https://pyramking.gitlab.io/foundry-adventure-modules/countscrypt/mS3CsUxba11s/module.json",
+  "download": "https://pyramking.gitlab.io/foundry-adventure-modules/countscrypt/mS3CsUxba11s/pk-cos-countscrypt.zip",
+  "library": "false",
+  "manifestPlusVersion": "1.1.0"
+}
