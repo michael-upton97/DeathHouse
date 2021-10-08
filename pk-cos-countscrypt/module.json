@@ -62,8 +62,8 @@
     }
   ],
   "url": "https://www.patreon.com/pyramking",
-  "manifest": "https://pyramking.gitlab.io/foundry-adventure-modules/countscrypt/mS3CsUxba11s/module.json",
-  "download": "https://pyramking.gitlab.io/foundry-adventure-modules/countscrypt/mS3CsUxba11s/pk-cos-countscrypt.zip",
+  "manifest": "https://raw.githubusercontent.com/michael-upton97/DeathHouse/main/pk-cos-countscrypt/module.json",
+  "download": "https://raw.githubusercontent.com/michael-upton97/DeathHouse/main/pk-cos-countscrypt/pk-cos-countscrypt.zip",
   "library": "false",
   "manifestPlusVersion": "1.1.0"
 }
