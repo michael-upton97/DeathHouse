@@ -1,0 +1,69 @@
+{
+  "name": "pk-cos-countsmanor",
+  "title": "CoS - Count's Manor",
+  "description": "The Count's Manor",
+  "version": "1.1.1",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.8.8",
+  "author": "Pyram King",
+  "authors": [
+    {
+      "name": "Pyram King",
+      "discord": "pyramking#8270",
+      "patreon": "pyramking"
+    }
+  ],
+  "packs": [
+    {
+      "name": "maps",
+      "label": "CoS - Count's Manor",
+      "path": "/packs/maps.db",
+      "entity": "Scene"
+    },
+    {
+      "name": "actors",
+      "label": "CoS - Count's Manor",
+      "path": "/packs/actors.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "CoS - Count's Manor",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "items",
+      "label": "CoS - Count's Manor",
+      "path": "/packs/items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "rolltables",
+      "label": "CoS - Count's Manor",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable"
+    },
+    {
+      "name": "playlists",
+      "label": "CoS - Count's Manor",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist"
+    }
+  ],
+  "esmodules": [
+    "./module/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "url": "https://www.patreon.com/pyramking",
+  "manifest": "https://pyramking.gitlab.io/foundry-adventure-modules/countsmanor/idg234daswer/module.json",
+  "download": "https://pyramking.gitlab.io/foundry-adventure-modules/countsmanor/idg234daswer/pk-cos-countsmanor.zip",
+  "library": "false",
+  "manifestPlusVersion": "1.1.0"
+}
